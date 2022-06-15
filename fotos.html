@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria - Fotos</title>
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- estilos da aplicação-->
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header-brand" href="./index.html">Galleria</a>
+        <nav class="header-navbar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./fotos.html" class="active">Fotos</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="header-social-media">
+            <ul>
+                <li><a target="_blank" href="https://github.com/SamuelPereiraBrandao"><i class="fab fa-github"></i></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/samuelpereirabrandao/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a target="_blank" href="mailto:samuelpbrandao58@gmail.com"><i class="fas fa-envelope-open"></i> </a></li>
+                <li class="recarregar"><a href="./fotos.html"><i class="fas fa-sync"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Principais fotos</h1>
+        <div class="owl-carousel owl-theme">
+        <div class="item"><img src="./img/cidades.jpg" alt=""></div>
+        <div class="item"><img src="./img/animais.jpg" alt=""></div>
+        <div class="item"><img src="./img/natureza.jpg" alt=""></div>
+        <div class="item"><img src="./img/pessoas.jpg" alt=""></div>
+        <div class="item"><img src="./img/paisagem.jpg" alt=""></div>
+        <div class="item"><img src="./img/assistencia.jpg" alt=""></div>
+        <div class="item"><img src="./img/decoracao.jpg" alt=""></div>
+        <div class="item"><img src="./img/marvel.jpg" alt=""></div>
+        <div class="item"><img src="./img/refeicoes.jpg" alt=""></div>
+        <div class="item"><img src="./img/natureza2.jpg" alt=""></div>
+        <div class="item"><img src="./img/castelo.jpg" alt=""></div>
+        <div class="item"><img src="./img/ceu.jpg" alt=""></div>
+        </div> 
+    </main>
+    <footer class="footer-2">
+        <p><span class="span-1">Samuel Pereira Brandão </span>&copy;
+        <span class="span-2"> 2022</span></p>
+    </footer>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/owlCarousel/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 4,
+                loop:true,
+                margin:12,
+                nav:true,
+               // navText:["<",">"]
+               autoplay:true,
+               autoplayTimeout:2000,
+              // dots:false
+              responsive:{
+                0:{
+                    items:1,
+                },
+                350:{
+                    items:2
+                },
+                1000:{
+                    items:5
+                }
+              }
+            });
+        });
+    </script>
+</body>
+
+</html>

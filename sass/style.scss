@@ -1,0 +1,298 @@
+@import './variables';
+@import './mixins';
+
+*{
+    font-family: 'Josefin Sans';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bg-color;
+    color: $text-color;
+    a{
+        color:$text-color;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    ul{
+        list-style: none;
+
+    }
+}
+h1{
+    @include mobile{
+        font-size: 20px;
+    }
+    &:hover{
+        transition: 0.5s;
+        color:$secundary-color;
+    }
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.header{
+    @include mobile;
+    display: flex;
+    justify-content: space-between;
+    @include container();
+    .header-brand{
+        color:$primary-color;
+        font-size: 3rem;
+        &:hover{
+            color:$secundary-color;
+        }
+    }
+    .header-navbar{
+        ul{
+            height: 100%;
+            @include flex-center;
+            @include mobile{
+                display: none;
+            }
+            li{
+                margin: 0 1rem;
+                text-transform: uppercase;
+                font-size: .8rem;
+                .active{
+                    color:$secundary-color;
+                }
+            a{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+             &:hover{
+                color:$secundary-color
+             }
+        } 
+            }
+        }
+     
+    }
+    .header-social-media{
+        ul{
+            @include flex-center;
+            height: 100%;
+            @include mobile{
+                display: none;
+            }
+        }
+        li{
+            margin: 0 1rem;
+            a{
+                &:hover{
+                    color:$primary-color;
+                }
+            }
+        }
+    }
+}
+    .recarregar{
+        i:hover{
+            color:$secundary-color;
+        }
+    }
+    .gallery{
+        @include mobile{
+            flex-direction: column;
+
+        }
+        @include flex-center;
+        @include container;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0;
+        
+        &-card{ //gallery-card
+            @include mobile{
+                width: 90%;
+                margin-bottom: 6%;
+            }
+            width: 31%;
+            height: 400px;
+            margin-bottom: 4%;
+            @include flex-center;  
+              flex-direction: column;
+              color: $primary-color;
+        &-title{    //gallery-card-title
+                font-size: 2rem;
+                font-weight: 300;
+                margin-bottom: 1rem;
+                color:$secundary-color;
+            
+            }
+            &-btn{
+                padding: .6rem 2rem;
+                border: 2px solid $primary-color;
+                color:$primary-color;
+                font-weight: 400;
+                border-radius: 25px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                &:hover{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    border: 3px solid $secundary-color;
+                    background-color: rgb(255, 255, 255);
+                    color:$bg-color;
+                    opacity: 0.7;
+                    
+                }
+            }
+        }
+
+        #card-1{
+            @include bg-img('../img/animais.jpg');
+            
+        }
+        #card-2{
+            @include bg-img('../img/arquitetura.jpg');
+        }
+        #card-3{
+            @include bg-img('../img/cidades.jpg');
+        }
+        #card-4{
+            @include bg-img('../img/decoracao.jpg');
+        }
+        #card-5{
+            @include bg-img('../img/esportes.jpg');
+        }
+        #card-6{
+            @include bg-img('../img/natureza.jpg');
+        }
+        #card-7{
+            @include bg-img('../img/paisagem.jpg');
+        }
+        #card-8{
+            @include bg-img('../img/pessoas.jpg');
+        }
+        #card-9{
+            @include bg-img('../img/refeicoes.jpg');
+        }
+        #card-10{
+            @include bg-img('../img/assistencia.jpg');
+        }
+        #card-11{
+            @include bg-img('../img/lava-rapido.jpg');
+        }
+        #card-12{
+            @include bg-img('../img/castelo.jpg');
+        }
+        #card-13{
+            @include bg-img('../img/peixes.jpg');
+        }
+        #card-14{
+            @include bg-img('../img/marvel.jpg');
+        }
+        #card-15{
+            @include bg-img('../img/cosplay.jpg');
+        }
+        #card-16{
+            @include bg-img('../img/exercicios.jpg');
+        }
+        #card-17{
+            @include bg-img('../img/natureza2.jpg');
+        }
+        #card-18{
+            @include bg-img('../img/ceu.jpg');
+        }
+    }
+
+    .owl-carousel{     
+        @include flex-center;
+        max-width: 1500px;
+        padding: 1.5rem 0;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0;
+
+        .owl-nav{
+             @include mobile{
+            width: 0%;
+            height: 0%;
+            display: none;
+        }
+        button{
+            width: 30px;
+            height: 60px;
+        }
+        span{
+            border-radius: 10px;
+            border: 2px solid $secundary-color;
+        
+
+        }
+        color: $secundary-color;
+            padding: 0;
+            font-size: 50px;
+            
+        }
+        img{  @include mobile{
+            height: 100%;
+            width: 100%;
+        }
+        height: 500px;
+        width: 205px;
+        align-items: center;
+        border-radius: 20px;
+    }
+    
+}
+
+
+footer{
+    p{
+        text-align: center;
+    padding-bottom: 2rem;
+   // margin-top: 50px;
+   // margin-bottom: 50px;
+    &:hover{
+        transition: 0.25s ease-in-out;
+        font-size: 19px;
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(5px 5px 3px $secundary-color);
+    
+    }
+    .span-2{
+        &:hover{
+            color:$secundary-color;
+            
+        }
+    }
+    .span-1{
+        font-weight: bold;
+        color:$secundary-color;
+
+    }
+}
+ul{
+    @include mobile{
+        display: none;
+    }
+    @include flex-center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 100%;
+    @include mobile{
+        display: none;
+    }
+}
+li{
+    width: 5%;
+    @include flex-center;
+ 
+    
+}
+i{
+    &:hover{transition: 0.5s;
+        color:$secundary-color;
+    }
+}
+}
+.footer-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
