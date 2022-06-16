@@ -1,6 +1,11 @@
 #
 <table align="center">
-<img src="./img/home.png" width="500px" alt="imagagem-do-site" align="center">
+    <tr>
+        <td>
+            <img src="./img/home.png" width="500px" alt="imagagem-do-site" align="center">
+        </td>
+    </tr>
+
 </table>
 
 
