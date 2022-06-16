@@ -8,17 +8,16 @@
 > Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.
 
 Confira a aplicação: <a href="https://a-galleria.vercel.app/index.html" target="_blank"> Galleria <a/>
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos
+
 
 ## 🚀 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
     
-- HTML
-- SASS
-- JavaScript
-- JQUERY
+- [x] HTML
+- [x] SASS
+- [x] JavaScript
+- [x] JavaScript
+- [x] JQUERY
 
 ## 🤝 Colaborador(es)
 Desenvolvedor(es):
