@@ -21,10 +21,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ## 🤝 Colaborador(es)
 Desenvolvedor(es):
 
-<table>
-  <tr>
+<table align="center">
+  <tr align="center">
     <td align="center">
-      <a  align="center" href="#">
+      <a href="#">
         <img src="https://avatars.githubusercontent.com/u/89025317?s=400&u=5101aea74c08cb71402f11ed03a1ab666f208120&v=4" width="100px;" alt=""/><br>
         <sub>
           <b>Samuel Pereira Brandão</b>
