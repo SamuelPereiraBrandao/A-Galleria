@@ -13,7 +13,7 @@
 
  <p align="left">Confira a aplicação: <a href="https://a-galleria.vercel.app/index.html" target="_blank"> Galleria <a/></p>
 
-
+<br>
 ## 🚀 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
     
