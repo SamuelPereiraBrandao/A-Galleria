@@ -1,7 +1,7 @@
 #
 
 
-<img id="brand" src="" width="500px" alt="imagagem-do-site">
+<img id="brand" src="./img/home.png" width="500px" alt="imagagem-do-site">
 
 
 > Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.
