@@ -17,13 +17,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - JQUERY
 
-## 🤝 Colaboradores
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+## 🤝 Colaborador(es)
+Desenvolvedor(es):
 
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a  align="center" href="#">
         <img src="https://avatars.githubusercontent.com/u/89025317?s=400&u=5101aea74c08cb71402f11ed03a1ab666f208120&v=4" width="100px;" alt=""/><br>
         <sub>
           <b>Samuel Pereira Brandão</b>
