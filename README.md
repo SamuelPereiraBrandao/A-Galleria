@@ -6,7 +6,7 @@
 
 > Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.
 
-Confira a aplicação: <a href="https://a-galleria.vercel.app/index.html" target="_blank"> site <a/>
+Confira a aplicação: <a href="https://a-galleria.vercel.app/index.html" target="_blank"> Galleria <a/>
 
 
 ## 🚀 Tecnologias
