@@ -1,6 +1,7 @@
 #
+<table align="center">
 <img src="./img/home.png" width="500px" alt="imagagem-do-site" align="center">
-
+</table>
 
 
 > Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.
