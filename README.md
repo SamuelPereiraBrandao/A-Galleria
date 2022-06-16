@@ -40,8 +40,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <a href = "mailto:samuelpbrandao58@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-Made with ♥ by Samuel Pereira Brandão :wave: <a href="https://github.com/SamuelPereiraBrandao">Get in touch!</a>
+♥ by Samuel Pereira Brandão :wave: <a href="https://github.com/SamuelPereiraBrandao">Entrar em contato!</a>
