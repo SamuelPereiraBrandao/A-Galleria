@@ -38,7 +38,7 @@ h1{
 .header{
     @include mobile;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     @include container();
     .header-brand{
         color:$primary-color;
@@ -49,7 +49,6 @@ h1{
     }
     .header-navbar{
         display: flex;
-        align-items:flex-end;
         ul{
             @include flex-center;
             @include mobile{
@@ -110,16 +109,19 @@ h1{
         @include flex-center;
         @include container;
         flex-wrap: wrap;
-        padding: 0;
+        
         
         &-card{ //gallery-card
             @include mobile{
                 width: 90%;
                 margin-bottom: 6%;
             }
+            
             width: 31%;
             height: 400px;
-            margin-bottom: 4%;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 5%;
             @include flex-center;  
               flex-direction: column;
               color: $primary-color;
