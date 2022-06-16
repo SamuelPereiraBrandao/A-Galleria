@@ -2,17 +2,15 @@
 
 
 <img id="brand" src="./img/home.png" width="500px" alt="imagagem-do-site">
-<style>
-  .brand{
-    border-radius:20px;
-  }
-  </style>
+
 
 
 > Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.
 
 Confira a aplicação: <a href="https://a-galleria.vercel.app/index.html" target="_blank"> Galleria <a/>
-
+- [x] Cadastro de usuário
+- [x] Cadastro de cliente
+- [ ] Cadastro de produtos
 
 ## 🚀 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
