@@ -533,7 +533,7 @@ nav {
     z-index: 2;
   }
   .nav-list a {
-    font-size: 35px;
+    font-size: 250%;
   }
 
   .nav-list li {
