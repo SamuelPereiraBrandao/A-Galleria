@@ -19,7 +19,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [x] JQUERY
 
 ## 🤝 Colaborador(es)
-    <h1 align="center">Desenvolvedor(es): </h1>
+<em > <p align="center">Desenvolvedor(es)</p> </em>
 
 <table align="center">
   <tr align="center">
