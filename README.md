@@ -2,6 +2,11 @@
 
 
 <img id="brand" src="./img/home.png" width="500px" alt="imagagem-do-site">
+<style>
+  .brand{
+    border-radius:20px;
+  }
+  </style>
 
 
 > Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.
