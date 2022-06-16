@@ -49,6 +49,10 @@ h1:hover {
 .header .header-brand:hover {
   color: #20C997;
 }
+.header .header-navbar {
+  display: flex;
+  align-items: flex-end;
+}
 .header .header-navbar ul {
   display: flex;
   align-items: center;
@@ -102,7 +106,6 @@ h1:hover {
   padding: 1.5rem 0;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding: 0;
 }
 @media (max-width: 650px) {
@@ -492,9 +495,6 @@ footer i:hover {
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
@@ -509,7 +509,6 @@ nav {
   height: 2px;
   background: #20C997;
   margin: 8px;
-  transition: 0.3s;
 }
 
 @media (max-width: 999px) {

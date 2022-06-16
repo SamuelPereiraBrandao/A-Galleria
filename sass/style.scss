@@ -48,6 +48,8 @@ h1{
         }
     }
     .header-navbar{
+        display: flex;
+        align-items:flex-end;
         ul{
             @include flex-center;
             @include mobile{
@@ -108,7 +110,6 @@ h1{
         @include flex-center;
         @include container;
         flex-wrap: wrap;
-        justify-content: space-around;
         padding: 0;
         
         &-card{ //gallery-card
@@ -301,9 +302,6 @@ i{
 
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 
   }
@@ -319,15 +317,18 @@ nav {
     height: 2px;
     background: $secundary-color;
     margin: 8px;
-    transition: 0.3s;
+
     
   }
-  
+  @media (max-width: 560px) {
+
+  }
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
       
     }
+
     .nav-list {
       list-style: none;
       display: flex;
