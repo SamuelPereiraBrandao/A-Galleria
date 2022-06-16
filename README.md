@@ -9,7 +9,7 @@
 </table>
 
 
-> Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.
+<p align="center"> > Trata-se de um website totalmente feito por mim, para fortalecer meu portfólio.</p>
 
 Confira a aplicação: <a href="https://a-galleria.vercel.app/index.html" target="_blank"> Galleria <a/>
 
