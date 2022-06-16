@@ -16,7 +16,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [x] HTML
 - [x] SASS
 - [x] JavaScript
-- [x] JavaScript
 - [x] JQUERY
 
 ## 🤝 Colaborador(es)
