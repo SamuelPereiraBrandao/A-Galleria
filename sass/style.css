@@ -6,7 +6,9 @@
 }
 
 body {
-  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, #20C997 15%, #000 50%);
   color: #777;
 }
 body a {
