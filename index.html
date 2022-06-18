@@ -44,78 +44,79 @@
         </div>
     </header>
     <main>
-        <div class="gallery">
-            <div class="gallery-card" id="card-1">
+        <div class="gallery headline">
+            <div class="gallery-card tagline" id="card-1">
                 <h2 class="gallery-card-title">Animais</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-2">
+            <div class="gallery-card tagline2" id="card-2">
                 <h2 class="gallery-card-title">Arquiteturas</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-3">
+            <div class="gallery-card tagline" id="card-3">
                 <h2 class="gallery-card-title">Cidades</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-4">
+            <div class="gallery-card tagline2" id="card-4">
                 <h2 class="gallery-card-title">Decorações</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-5">
+            <div class="gallery-card tagline" id="card-5">
                 <h2 class="gallery-card-title">Esportes</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-6">
+            <div class="gallery-card tagline2" id="card-6">
                 <h2 class="gallery-card-title">Natureza</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-7">
+               <div class="gallery-card tagline" id="card-7">
                 <h2 class="gallery-card-title">Paisagem</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-8">
+            <div class="gallery-card tagline2" id="card-8">
                 <h2 class="gallery-card-title">Pessoas</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-9">
+            <div class="gallery-card tagline" id="card-9">
                 <h2 class="gallery-card-title">Refeições</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
-            </div>
-            <div class="gallery-card" id="card-10">
+            </div>  
+           
+            <div class="gallery-card tagline2" id="card-10">
                 <h2 class="gallery-card-title">Assistência</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-11">
+            <div class="gallery-card tagline" id="card-11">
                 <h2 class="gallery-card-title">Lava Rápido</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-12">
+            <div class="gallery-card tagline2" id="card-12">
                 <h2 class="gallery-card-title">Castelos</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-13">
+            <div class="gallery-card tagline" id="card-13">
                 <h2 class="gallery-card-title">Peixes</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-14">
+            <div class="gallery-card tagline2" id="card-14">
                 <h2 class="gallery-card-title">Marvel</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-15">
+            <div class="gallery-card tagline" id="card-15">
                 <h2 class="gallery-card-title">Cosplays</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div> 
-             <div class="gallery-card" id="card-16">
+             <div class="gallery-card tagline2" id="card-16">
                 <h2 class="gallery-card-title">Exercicios</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-17">
+            <div class="gallery-card tagline" id="card-17">
                 <h2 class="gallery-card-title">Natureza 2</h2>
                 <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
             </div>
-            <div class="gallery-card" id="card-18">
-                <h2 class="gallery-card-title">Ceu</h2>
-                <a href="./fotos.html" class="gallery-card-btn">Mais fotos</a>
+            <div class="gallery-card tagline2" id="card-18">
+                <h2 class="gallery-card-title tagline">Ceu</h2>
+                <a href="./fotos.html" class="gallery-card-btn tagline">Mais fotos</a>
             </div>
         </div>
           
@@ -134,5 +135,22 @@
 
     </footer>
 </body>
+<script src="https://unpkg.com/scrollreveal">
+</script>
+<script>
+    ScrollReveal({ reset: true });
+    //
+    ScrollReveal({ 
+    distance: '500px',
+    duration: 1000,
+    origin:'left',
+    reset: true
+    })
+    //
+    ScrollReveal().reveal('.tagline', { origin: 'left' });
+    ScrollReveal().reveal('.tagline2', { origin: 'right' });
+
+    
+</script>
 <script src="./lib/mobile-navbar.js"></script>
 </html>
