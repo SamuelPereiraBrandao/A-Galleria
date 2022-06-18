@@ -20,7 +20,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="body2">
     <header class="header">
         <a class="header-brand" href="./index.html">Galleria</a>
         <nav class="header-navbar">
@@ -45,8 +45,9 @@
             </ul>
         </div>
     </header>
-    <main>
-        <h1>Principais fotos</h1>
+    <main class="principal">
+        
+        <h1 class="tituloSlide">GALERIA 01</h1>
         <div class="owl-carousel owl-theme">
         <div class="item"><img src="./img/cidades.jpg" alt=""></div>
         <div class="item"><img src="./img/animais.jpg" alt=""></div>
@@ -61,7 +62,10 @@
         <div class="item"><img src="./img/castelo.jpg" alt=""></div>
         <div class="item"><img src="./img/ceu.jpg" alt=""></div>
         </div> 
+        <h1 class="tituloSlide">GALERIA 02</h1>
         <div class="content">
+           
+
             <div class="slides">
                 <input type="radio" name="slide" id="slide1" checked>
                 <input type="radio" name="slide" id="slide2">
@@ -70,30 +74,32 @@
                 <input type="radio" name="slide" id="slide5">
 
                 <div class="slide s1">
-                    <img src="/img/animais.jpg" alt="imagemSlide">
+                    <img src="/img/paisagemslide1.jpg" alt="imagemSlide">
                 </div>
                 <div class="slide">
-                    <img src="/img/ceu.jpg" alt="imagemSlide">
+                    <img src="/img/paisagemslide2.jpg" alt="imagemSlide">
                 </div>
                 <div class="slide">
-                    <img src="/img/natureza.jpg" alt="imagemSlide">
+                    <img src="/img/paisagemslide3.jpg" alt="imagemSlide">
                 </div>
                 <div class="slide">
-                    <img src="/img/natureza2.jpg" alt="imagemSlide">
+                    <img src="/img/paisagemslide4.jpg" alt="imagemSlide">
                 </div>
                 <div class="slide">
-                    <img src="/img/paisagem.jpg" alt="imagemSlide">
+                    <img src="/img/paisagemslide5.jpg" alt="imagemSlide">
                 </div>
             </div>
             <div class="navigation">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
-                <label for="slide5"></label>
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
             </div>
         </div>
     </main>
+
+
     <footer class="footer-2">
         <p><span class="span-1">Samuel Pereira Brandão </span>&copy;
         <span class="span-2"> 2022</span></p>
@@ -131,6 +137,6 @@
         });
     </script>
     <script src="./lib/mobile-navbar.js"></script>
-</body>
 
+</body>
 </html>

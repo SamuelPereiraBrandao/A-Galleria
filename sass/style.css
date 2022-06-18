@@ -8,7 +8,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(72deg, #0a3528 1%, #000 99%);
+  background: linear-gradient(0deg, #0a3528 1%, #000 99%);
   color: #777;
 }
 body a {
@@ -449,6 +449,85 @@ h1:hover {
     height: 100%;
     width: 100%;
   }
+}
+
+.content {
+  height: 100%;
+  width: 99%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media (max-width: 650px) {
+  .content {
+    width: 90%;
+    margin-bottom: 6%;
+  }
+}
+
+.tituloSlide {
+  margin-top: 100px;
+}
+
+.navigation {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+}
+
+.bar {
+  width: 70px;
+  height: 25px;
+  border: 2px solid #fff;
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover {
+  background: #20C997;
+}
+
+input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  height: 100%;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+  margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+  margin-left: -80%;
+}
+
+.principal {
+  position: center;
 }
 
 footer p {
