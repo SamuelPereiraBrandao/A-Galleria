@@ -452,20 +452,22 @@ h1:hover {
 }
 
 .content {
-  height: 100%;
-  width: 99%;
+  height: 900px;
+  width: 97%;
   border-radius: 20px;
   overflow: hidden;
+  margin: 10px;
 }
 @media (max-width: 650px) {
   .content {
     width: 90%;
+    height: 90%;
     margin-bottom: 6%;
   }
 }
 
 .tituloSlide {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .navigation {
