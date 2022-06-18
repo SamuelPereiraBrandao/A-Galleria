@@ -141,12 +141,14 @@
     ScrollReveal({ reset: true });
     //
     ScrollReveal({ 
-    distance: '500px',
-    duration: 1000,
-    origin:'left',
+    distance: '50px',
+    duration: 250,
+    origin:'bottom',
+    mobile: true,
     reset: true
     })
     //
+    ScrollReveal().reveal('.headline');
     ScrollReveal().reveal('.tagline', { origin: 'left' });
     ScrollReveal().reveal('.tagline2', { origin: 'right' });
 
