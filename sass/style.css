@@ -551,16 +551,6 @@ footer ul {
   height: 100%;
 }
 
-@media (max-width: 650px) {
-  footer ul {
-    display: none;
-  }
-}
-@media (max-width: 650px) {
-  footer ul {
-    display: none;
-  }
-}
 footer li {
   width: 5%;
   display: flex;
