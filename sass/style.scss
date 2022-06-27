@@ -47,8 +47,15 @@ h1{
     .header-brand{
         color:$primary-color;
         font-size: 3rem;
-        &:hover{
+        span{
             color:$secundary-color;
+        }
+        &:hover{
+            transition: 1s ease;
+            color:$secundary-color;
+            span{
+                color: $primary-color;
+            }
         }
     }
     .header-navbar{
@@ -410,3 +417,29 @@ nav {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+#demoparagraph {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    -webkit-column-rule: 1px solid $secundary-color2;
+    -moz-column-rule: 1px solid $secundary-color2;
+    column-rule: 2px solid $secundary-color2;
+    margin: 10%;
+    font-size: 22px;
+    color: $primary-color;
+    text-align: justify;
+    flex-wrap: wrap;
+    strong{
+        color: $secundary-color;
+        font-size: 30px;
+    }
+    a{
+        color: $primary-color;
+        &:hover{
+            color: $secundary-color;
+        }
+    }
+    }

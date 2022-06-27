@@ -48,8 +48,15 @@ h1:hover {
   color: #fff;
   font-size: 3rem;
 }
-.header .header-brand:hover {
+.header .header-brand span {
   color: #20C997;
+}
+.header .header-brand:hover {
+  transition: 1s ease;
+  color: #20C997;
+}
+.header .header-brand:hover span {
+  color: #fff;
 }
 .header .header-navbar {
   display: flex;
@@ -601,4 +608,28 @@ nav {
 .footer-2 {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+#demoparagraph {
+  -moz-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  -moz-column-rule: 1px solid #0a3528;
+  column-rule: 2px solid #0a3528;
+  margin: 10%;
+  font-size: 22px;
+  color: #fff;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+#demoparagraph strong {
+  color: #20C997;
+  font-size: 30px;
+}
+#demoparagraph a {
+  color: #fff;
+}
+#demoparagraph a:hover {
+  color: #20C997;
 }/*# sourceMappingURL=style.css.map */
