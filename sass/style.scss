@@ -413,6 +413,9 @@ nav {
         grid-template-columns: repeat(2,1fr);
         grid-auto-rows: calc(45vh/2);
     }
+    div.conteudo h1{
+        font-size: 14px;
+    }
   }
    
 .footer-2{
