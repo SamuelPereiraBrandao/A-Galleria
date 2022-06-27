@@ -76,13 +76,13 @@ h1:hover {
   letter-spacing: 5px;
 }
 .header .header-navbar ul li .active {
-  color: #20C997;
+  color: #fff;
 }
 .header .header-navbar ul li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header .header-navbar ul li a:hover {
-  color: #20C997;
+  color: #fff;
 }
 .header .header-social-media ul {
   display: flex;
@@ -538,7 +538,7 @@ nav {
     width: 100%;
     height: 20%;
     border-radius: 30px;
-    background: #fff;
+    background: #20C997;
     flex-direction: column;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
@@ -620,7 +620,6 @@ nav {
   margin: 10%;
   font-size: 22px;
   color: #fff;
-  text-align: justify;
   flex-wrap: wrap;
 }
 #demoparagraph strong {
