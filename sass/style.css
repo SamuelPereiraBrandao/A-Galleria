@@ -11,11 +11,13 @@ body {
   background: linear-gradient(75deg, #0a3528 1%, #000 99%);
   color: #777;
 }
+
 body a {
   color: #777;
   text-decoration: none;
   transition: 0.4s;
 }
+
 body ul {
   list-style: none;
 }
@@ -27,6 +29,7 @@ h1 {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+
 @media (max-width: 650px) {
   h1 {
     font-size: 20px;
@@ -44,28 +47,35 @@ h1:hover {
   padding: 1.5rem 0;
   margin: 0 auto;
 }
+
 .header .header-brand {
   color: #fff;
   font-size: 3rem;
 }
+
 .header .header-brand span {
   color: #20C997;
 }
+
 .header .header-brand:hover {
   transition: 1s ease;
   color: #20C997;
 }
+
 .header .header-brand:hover span {
   color: #fff;
 }
+
 .header .header-navbar {
   display: flex;
 }
+
 .header .header-navbar ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .header .header-navbar ul li {
   align-items: center;
   text-align: center;
@@ -75,21 +85,26 @@ h1:hover {
   padding: 0;
   letter-spacing: 5px;
 }
+
 .header .header-navbar ul li .active {
   color: #fff;
 }
+
 .header .header-navbar ul li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .header .header-navbar ul li a:hover {
   color: #fff;
 }
+
 .header .header-social-media ul {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
+
 @media (max-width: 650px) {
   .header .header-social-media ul {
     display: none;
@@ -98,6 +113,7 @@ h1:hover {
 .header .header-social-media li {
   margin: 0 1rem;
 }
+
 .header .header-social-media li a:hover {
   color: #fff;
 }
@@ -115,6 +131,7 @@ h1:hover {
   margin: 0 auto;
   flex-wrap: wrap;
 }
+
 @media (max-width: 650px) {
   .gallery {
     flex-direction: column;
@@ -132,6 +149,7 @@ h1:hover {
   flex-direction: column;
   color: #fff;
 }
+
 @media (max-width: 650px) {
   .gallery-card {
     width: 90%;
@@ -144,6 +162,7 @@ h1:hover {
   margin-bottom: 1rem;
   color: #20C997;
 }
+
 .gallery-card-btn {
   padding: 0.6rem 2rem;
   border: 2px solid #fff;
@@ -154,6 +173,7 @@ h1:hover {
   letter-spacing: 1px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .gallery-card-btn:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 3px solid #20C997;
@@ -161,6 +181,7 @@ h1:hover {
   color: #000;
   opacity: 0.7;
 }
+
 .gallery #card-1 {
   background-image: url("../img/../img/animais.jpg");
   background-size: 100%;
@@ -170,11 +191,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-1:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/animais.jpg");
 }
+
 .gallery #card-2 {
   background-image: url("../img/../img/arquitetura.jpg");
   background-size: 100%;
@@ -184,11 +207,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-2:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/arquitetura.jpg");
 }
+
 .gallery #card-3 {
   background-image: url("../img/../img/cidades.jpg");
   background-size: 100%;
@@ -198,11 +223,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-3:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/cidades.jpg");
 }
+
 .gallery #card-4 {
   background-image: url("../img/../img/decoracao.jpg");
   background-size: 100%;
@@ -212,11 +239,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-4:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/decoracao.jpg");
 }
+
 .gallery #card-5 {
   background-image: url("../img/../img/esportes.jpg");
   background-size: 100%;
@@ -226,11 +255,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-5:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/esportes.jpg");
 }
+
 .gallery #card-6 {
   background-image: url("../img/../img/natureza.jpg");
   background-size: 100%;
@@ -240,11 +271,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-6:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/natureza.jpg");
 }
+
 .gallery #card-7 {
   background-image: url("../img/../img/paisagem.jpg");
   background-size: 100%;
@@ -254,11 +287,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-7:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/paisagem.jpg");
 }
+
 .gallery #card-8 {
   background-image: url("../img/../img/pessoas.jpg");
   background-size: 100%;
@@ -268,11 +303,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-8:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/pessoas.jpg");
 }
+
 .gallery #card-9 {
   background-image: url("../img/../img/refeicoes.jpg");
   background-size: 100%;
@@ -282,11 +319,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-9:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/refeicoes.jpg");
 }
+
 .gallery #card-10 {
   background-image: url("../img/../img/assistencia.jpg");
   background-size: 100%;
@@ -296,11 +335,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-10:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/assistencia.jpg");
 }
+
 .gallery #card-11 {
   background-image: url("../img/../img/lava-rapido.jpg");
   background-size: 100%;
@@ -310,11 +351,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-11:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/lava-rapido.jpg");
 }
+
 .gallery #card-12 {
   background-image: url("../img/../img/castelo.jpg");
   background-size: 100%;
@@ -324,11 +367,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-12:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/castelo.jpg");
 }
+
 .gallery #card-13 {
   background-image: url("../img/../img/peixes.jpg");
   background-size: 100%;
@@ -338,11 +383,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-13:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/peixes.jpg");
 }
+
 .gallery #card-14 {
   background-image: url("../img/../img/marvel.jpg");
   background-size: 100%;
@@ -352,11 +399,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-14:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/marvel.jpg");
 }
+
 .gallery #card-15 {
   background-image: url("../img/../img/cosplay.jpg");
   background-size: 100%;
@@ -366,11 +415,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-15:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/cosplay.jpg");
 }
+
 .gallery #card-16 {
   background-image: url("../img/../img/exercicios.jpg");
   background-size: 100%;
@@ -380,11 +431,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-16:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/exercicios.jpg");
 }
+
 .gallery #card-17 {
   background-image: url("../img/../img/natureza2.jpg");
   background-size: 100%;
@@ -394,11 +447,13 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-17:hover {
   background-size: 120%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/../img/natureza2.jpg");
 }
+
 .gallery #card-18 {
   background-image: url("../img/../img/ceu.jpg");
   background-size: 100%;
@@ -408,6 +463,7 @@ h1:hover {
   filter: grayscale(100%);
   transition: 0.6s;
 }
+
 .gallery #card-18:hover {
   background-size: 120%;
   filter: grayscale(0%);
@@ -425,11 +481,13 @@ h1:hover {
   justify-content: space-around;
   padding: 0;
 }
+
 .owl-carousel .owl-nav {
   color: #20C997;
   padding: 0;
   font-size: 50px;
 }
+
 @media (max-width: 650px) {
   .owl-carousel .owl-nav {
     width: 0%;
@@ -441,23 +499,25 @@ h1:hover {
   width: 30px;
   height: 60px;
 }
+
 .owl-carousel .owl-nav span {
   border-radius: 10px;
   border: 2px solid #20C997;
 }
+
 .owl-carousel img {
   height: 500px;
   width: 205px;
   align-items: center;
   border-radius: 20px;
 }
+
 @media (max-width: 650px) {
   .owl-carousel img {
     height: 100%;
     width: 100%;
   }
 }
-
 .principal {
   position: center;
 }
@@ -466,18 +526,22 @@ footer p {
   text-align: center;
   padding-bottom: 2rem;
 }
+
 footer p:hover {
   transition: 0.25s ease-in-out;
   font-size: 19px;
   filter: drop-shadow(5px 5px 3px #20C997);
 }
+
 footer p .span-2:hover {
   color: #20C997;
 }
+
 footer p .span-1 {
   font-weight: bold;
   color: #20C997;
 }
+
 footer ul {
   display: flex;
   align-items: center;
@@ -486,6 +550,7 @@ footer ul {
   margin-bottom: 40px;
   height: 100%;
 }
+
 @media (max-width: 650px) {
   footer ul {
     display: none;
@@ -502,6 +567,7 @@ footer li {
   align-items: center;
   justify-content: center;
 }
+
 footer i:hover {
   transition: 0.5s;
   color: #20C997;
@@ -544,6 +610,7 @@ nav {
     transition: transform 0.3s ease-in;
     z-index: 2;
   }
+
   .nav-list a {
     font-size: 225%;
   }
@@ -571,7 +638,6 @@ nav {
     transform: translateX(0);
   }
 }
-
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -603,6 +669,10 @@ nav {
     grid-row: span 2;
   }
 
+  h1 {
+    font-size: 50px;
+  }
+
   div.galeria02 {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 22.5vh;
@@ -625,32 +695,38 @@ nav {
   color: #fff;
   flex-wrap: wrap;
 }
+
 #demoparagraph strong {
   color: #20C997;
   font-size: 30px;
 }
+
 #demoparagraph a {
   color: #fff;
 }
+
 #demoparagraph a:hover {
   color: #20C997;
 }
 
 .galeria02 {
-  margin-left: 25px;
+  margin-left: 5%;
   width: 90%;
   height: 90vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 45vh;
 }
+
 @media screen and (max-width: 768px) {
   .galeria02 .wg1 {
     grid-column: span 2;
   }
+
   .galeria02 .hg1 {
     grid-row: span 2;
   }
+
   .galeria02 div.galeria02 {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 22.5vh;
@@ -665,21 +741,24 @@ nav {
   transition: all 0.5s ease-in-out;
   border-radius: 20px;
 }
+
 .galeria02 .img {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: absolute;
 }
+
 .galeria02 .img img {
   position: relative;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 20px;
 }
+
 .galeria02 .single-galeria {
   margin: 3px;
   display: flex;
@@ -687,17 +766,21 @@ nav {
   position: relative;
   cursor: pointer;
 }
+
 .galeria02 .single-galeria p:hover {
   color: #20C997;
   transition: all 0.5s ease-in-out;
 }
+
 .galeria02 .single-galeria h1:hover {
   color: #fff;
 }
+
 .galeria02 .single-galeria:hover .overflow {
   opacity: 0.5;
   border-radius: 20px;
 }
+
 .galeria02 div.conteudo {
   position: absolute;
   color: #20C997;
@@ -709,13 +792,16 @@ nav {
   text-align: left;
   transition: all 0.3s ease-in-out;
 }
+
 .galeria02 div.conteudo:hover {
   bottom: 15px;
   border-left: 3px solid #fff;
 }
+
 .galeria02 div.conteudo h1 {
   font-size: 24px;
 }
+
 .galeria02 div.conteudo p {
   font-size: 15px;
   color: #fff;
@@ -735,4 +821,6 @@ nav {
 
 .hg2 {
   grid-row: span 2;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
