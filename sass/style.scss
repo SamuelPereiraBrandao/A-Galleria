@@ -332,8 +332,6 @@ nav {
     height: 2px;
     background: $secundary-color;
     margin: 8px;
-
-    
   }
   @media (max-width: 5px) {
 
@@ -347,7 +345,7 @@ nav {
     .nav-list {
       list-style: none;
       display: flex;
-      position: absolute;
+     
       right: 0%;
       bottom: 72%;
       width: 100%;
@@ -376,6 +374,7 @@ nav {
   }
   .nav-list.active {
     transform: translateX(0);
+    display: none;
   }
   
   @keyframes navLinkFade {
