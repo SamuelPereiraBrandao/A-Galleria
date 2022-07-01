@@ -6,9 +6,9 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  background: linear-gradient(75deg, #0a3528 1%, #000 99%);
+  background: linear-gradient(75deg, #0a3528 1%, #000 99%) no-repeat;
   color: #777;
 }
 
