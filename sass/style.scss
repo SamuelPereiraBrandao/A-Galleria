@@ -6,9 +6,9 @@
   }
   
   body {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(75deg, #0a3528 1%, #000 99%) no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+    background: linear-gradient(75deg, #0a3528 1%, #000 99%);
     color: #777;
   }
   body a {
