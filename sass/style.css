@@ -7,8 +7,8 @@
 
 body {
   height: 100vh;
-  width: 100vw;
-  background: linear-gradient(75deg, #0a3528 1%, #000 99%) no-repeat;
+  width: 100%;
+  background: linear-gradient(75deg, #0a3528 1%, #000 99%);
   color: #777;
 }
 
@@ -811,6 +811,19 @@ nav {
 
 .hg2 {
   grid-row: span 2;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(5deg, #0a3528 100%, #000 1%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(32, 201, 150, 0.6588235294);
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
