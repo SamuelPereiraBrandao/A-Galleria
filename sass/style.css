@@ -584,7 +584,6 @@ nav {
   body {
     overflow-x: hidden;
   }
-
   .nav-list {
     list-style: none;
     display: flex;
@@ -600,16 +599,13 @@ nav {
     transition: transform 0.3s ease-in;
     z-index: 2;
   }
-
   .nav-list a {
     font-size: 225%;
   }
-
   .nav-list li {
     margin-left: 0;
     opacity: 0;
   }
-
   .mobile-menu {
     display: block;
   }
@@ -654,15 +650,12 @@ nav {
   .wg1 {
     grid-column: span 2;
   }
-
   .hg1 {
     grid-row: span 2;
   }
-
   h1 {
     font-size: 50px;
   }
-
   div.galeria02 {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 22.5vh;
@@ -712,11 +705,9 @@ nav {
   .galeria02 .wg1 {
     grid-column: span 2;
   }
-
   .galeria02 .hg1 {
     grid-row: span 2;
   }
-
   .galeria02 div.galeria02 {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 22.5vh;
